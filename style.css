@@ -1,14 +1,16 @@
+body{
+    background-color: rgba(250,250,250,1);
+}
 li{
     display: inline;
     text-decoration: none;   
-    margin: 0 auto;
-    text-align: center;
     color: white;
+    font-family: Garamond;
     font-size: 17px;
-    padding: 50px;
+    padding: 42px;
 }
 ul{
-    text-align: center;
+    margin: 0 auto;
     background-color: black;
     padding: 10px;
 }
@@ -26,31 +28,84 @@ h2{
     font-size: 30px;
 }
 img{
-    padding-left: 100px;
-    padding-right: 250px;
+    padding-left: 300px;
     margin: 0 auto;
 }
 .iphone{
     background-image: url("image.jpg");
-    margin-top: 690px;
+
+    margin-top: 180px;
+    height: 290px;
+    width: 337px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px; 
 }
 .iwatch{
-    background-image: url("image1.jpg");   
+    background-image: url("image1.jpg");
+
+    margin-top: 180px;
+    height: 290px;
+    width: 337px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;   
 }
 .imac{
-    background-image: url("image2.jpg");   
+    background-image: url("image2.jpg"); 
+    
+    margin-top: 180px;
+    height: 290px;
+    width: 337px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;  
 }
 .assi{
     background-image: url("image3.jpg");
+    
+    margin-top: 180px;
+    height: 290px;
+    width: 337px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    font-size: 18px;
 }
 div{
     display: inline-block;
     float: left;
-    margin-top: 40px;
-    height: 290px;
-    width: 337px;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    padding-top: 4px;
+}
+#st1{
+   padding-left: 150px;
+}
+
+#st2{
+    padding-left: 100px;
+}
+#st3{
+    padding-left: 70px;
+}
+#st4{
+    padding-left: 70px;
+}
+
+#st5{
+    padding-left: 70px;
+}
+footer{
+    padding-top:900px;
+    padding-left: 150px;
+    width: 1000px;
+}
+@media (max-width: 500px) {
+    div{
+        display: block;
+    }
+    li{
+        display: block;
+    }
 }
