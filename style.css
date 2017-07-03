@@ -1,0 +1,30 @@
+li{
+    display: inline;
+    text-decoration: none;   
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20;
+    padding: 50px;
+}
+ul{
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin-bottom:5px; 
+
+}
+b{
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+img{
+    padding-left: 450px;
+}
