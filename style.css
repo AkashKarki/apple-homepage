@@ -4,7 +4,7 @@ li{
     margin: 0 auto;
     text-align: center;
     color: white;
-    font-size: 20;
+    font-size: 17px;
     padding: 50px;
 }
 ul{
@@ -26,5 +26,31 @@ h2{
     font-size: 30px;
 }
 img{
-    padding-left: 450px;
+    padding-left: 100px;
+    padding-right: 250px;
+    margin: 0 auto;
+}
+.iphone{
+    background-image: url("image.jpg");
+    margin-top: 690px;
+}
+.iwatch{
+    background-image: url("image1.jpg");   
+}
+.imac{
+    background-image: url("image2.jpg");   
+}
+.assi{
+    background-image: url("image3.jpg");
+}
+div{
+    display: inline-block;
+    float: left;
+    margin-top: 40px;
+    height: 290px;
+    width: 337px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 4px;
 }
