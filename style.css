@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(250,250,250,1);
+    background-color: rgba(245,245,245,1);
 }
 li{
     display: inline;
@@ -7,10 +7,11 @@ li{
     color: white;
     font-family: Garamond;
     font-size: 17px;
-    padding: 42px;
+    padding: 58px;
+    padding-left: 10px;
 }
 ul{
-    margin: 0 auto;
+    
     background-color: black;
     padding: 10px;
 }
@@ -33,10 +34,11 @@ img{
 }
 .iphone{
     background-image: url("image.jpg");
-
+    border: 2px solid;
+    border-radius: 8px;
     margin-top: 180px;
     height: 290px;
-    width: 337px;
+    width: 333px;
     text-align: center;
     color: white;
     padding-top: 4px;
@@ -44,10 +46,11 @@ img{
 }
 .iwatch{
     background-image: url("image1.jpg");
-
+    border: 2px solid;
+    border-radius: 8px;
     margin-top: 180px;
     height: 290px;
-    width: 337px;
+    width: 333px;
     text-align: center;
     color: white;
     padding-top: 4px;
@@ -55,10 +58,11 @@ img{
 }
 .imac{
     background-image: url("image2.jpg"); 
-    
+    border-radius: 8px;
+    border: 2px solid;
     margin-top: 180px;
     height: 290px;
-    width: 337px;
+    width: 333px;
     text-align: center;
     color: white;
     padding-top: 4px;
@@ -66,10 +70,11 @@ img{
 }
 .assi{
     background-image: url("image3.jpg");
-    
+    border-radius: 8px;
+    border: 2px solid;
     margin-top: 180px;
     height: 290px;
-    width: 337px;
+    width: 333px;
     text-align: center;
     color: white;
     padding-top: 4px;
@@ -97,15 +102,22 @@ div{
     padding-left: 70px;
 }
 footer{
-    padding-top:900px;
+    padding-top:800px;
     padding-left: 150px;
     width: 1000px;
 }
-@media (max-width: 500px) {
+@media (max-width: 900px) {
     div{
         display: block;
     }
     li{
         display: block;
     }
+    ul{
+       display: block; 
+    }
+}
+.new{
+    padding-left: 5px;
+    padding-top: 2px;
 }
