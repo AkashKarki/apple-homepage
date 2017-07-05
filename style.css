@@ -5,15 +5,16 @@ li{
     display: inline;
     text-decoration: none;   
     color: white;
-    font-family: Garamond;
+    font-family: helvetica;
     font-size: 17px;
-    padding: 58px;
-    padding-left: 10px;
+    padding: 40px;
+    
 }
 ul{
     
     background-color: black;
     padding: 10px;
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -28,15 +29,11 @@ h2{
     margin-top: 5px;
     font-size: 30px;
 }
-img{
-    padding-left: 300px;
-    margin: 0 auto;
-}
 .iphone{
     background-image: url("image.jpg");
     border: 2px solid;
     border-radius: 8px;
-    margin-top: 180px;
+    margin-top: 365px;
     height: 290px;
     width: 333px;
     text-align: center;
@@ -102,7 +99,7 @@ div{
     padding-left: 70px;
 }
 footer{
-    padding-top:800px;
+    padding-top:230px;
     padding-left: 150px;
     width: 1000px;
 }
@@ -116,8 +113,20 @@ footer{
     ul{
        display: block; 
     }
+    article{
+        display: block;
+    }
 }
-.new{
-    padding-left: 5px;
-    padding-top: 2px;
+header{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+}
+h1{
+   font-family: helvetica; 
+}
+article{
+    display: inline;
+    margin: 0 auto; 
 }
